@@ -1,9 +1,13 @@
 package com.calculator.calculator.vladimir;
 
 public interface CalculatorService {
-    String hello ();
-    String plus(Integer num1, Integer num2);
-    String minus(Integer num1, Integer num2);
-    String multiply(Integer num1, Integer num2);
-    String divide(Integer num1, Integer num2);
+    String hello();
+
+    int plus(Integer num1, Integer num2);
+
+    int minus(Integer num1, Integer num2);
+
+    int multiply(Integer num1, Integer num2);
+
+    double divide(Double num1, Double num2);
 }
